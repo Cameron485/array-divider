@@ -1,0 +1,24 @@
+{
+  "extends": "airbnb",
+  "env": {
+    "commonjs": true,
+    "node": true,
+    "mocha": true,
+    "es6": true
+  },
+  "rules": {
+    "max-len": [
+      2,
+      250,
+      4
+    ],
+    "comma-dangle": [
+      "error",
+      {
+        "objects": "always-multiline",
+        "functions": "never",
+        "arrays": "always-multiline"
+      }
+    ]
+  }
+}
