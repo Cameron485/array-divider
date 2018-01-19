@@ -6,11 +6,12 @@
   "author": "Cameron Findlay",
   "license": "MIT",
   "scripts": {
-    "test": "nyc mocha --reporter spec 'src/**/*.spec.js'"
+    "test": "nyc mocha --reporter spec 'src/**/*.spec.js'",
+    "start": "node app.js"
   },
   "nyc": {
     "exclude": [
-    "**/*.spec.js"
+      "**/*.spec.js"
     ]
   },
   "devDependencies": {
